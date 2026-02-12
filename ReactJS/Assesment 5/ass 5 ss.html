@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- saved from url=(0092)file:///C:/Users/diyap/Desktop/SKYTTUSInternship2026/ReactJS/form-validation-task/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>User Registration</title>
+  <link rel="stylesheet" href="./ass 5 ss_files/style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Register</h2>
+    <p class="subtitle">Create your account</p>
+
+    <form id="myForm">
+
+      <div class="input-group">
+        <input type="text" id="name" required="" placeholder=" ">
+        <label>Name</label>
+        <small class="error"></small>
+      </div>
+
+      <div class="input-group">
+        <input type="email" id="email" required="" placeholder=" ">
+        <label>Email</label>
+        <small class="error"></small>
+      </div>
+
+      <div class="input-group password-box">
+        <input type="password" id="password" required="" placeholder=" ">
+        <label>Password</label>
+        <span id="togglePassword">👁️</span>
+        <small class="error"></small>
+      </div>
+
+      <div class="strength">
+        <div id="strength-bar"></div>
+      </div>
+
+      <button type="submit" id="submitBtn" disabled="">Register</button>
+
+      <p id="successMsg"></p>
+    </form>
+  </div>
+
+  <script src="./ass 5 ss_files/script.js"></script>
+
+
+</body></html>
